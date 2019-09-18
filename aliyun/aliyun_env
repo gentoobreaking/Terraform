@@ -1,0 +1,12 @@
+#!/bin/bash
+
+NLP_ENV()
+{
+export ALICLOUD_ACCESS_KEY=""
+export ALICLOUD_SECRET_KEY=""
+export ALICLOUD_REGION="cn-shanghai"
+}
+
+NLP_ENV
+echo "ALICLOUD_REGION:${ALICLOUD_REGION}"
+
